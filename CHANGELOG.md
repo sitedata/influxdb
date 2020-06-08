@@ -8,6 +8,7 @@
 1. [18344](https://github.com/influxdata/influxdb/pull/18344): Extend influx CLI with version and User-Agent.
 1. [18355](https://github.com/influxdata/influxdb/pull/18355): Integrate RedirectTo functionality so CLOUD users now get navigated back to the originally linked page after login
 1. [18387](https://github.com/influxdata/influxdb/pull/18387): Integrate query cancellation after queries have been submitted
+1. [18392](https://github.com/influxdata/influxdb/pull/18392): Consolidate pkg influx commands under templates. This removes some nesting of the CLI commands as part of that.
 
 ### Bug Fixes
 
@@ -20,7 +21,7 @@
 
 1. [18319](https://github.com/influxdata/influxdb/pull/18319): Display bucket ID in bucket list and enable 1 click copying
 1. [18361](https://github.com/influxdata/influxdb/pull/18361): Tokens list is now consistent with the other resource lists
-
+1. [18346](https://github.com/influxdata/influxdb/pull/18346): Reduce the number of variables being hydrated when toggling variables
 
 ## v2.0.0-beta.11 [2020-05-26]
 
