@@ -2825,10 +2825,10 @@ clone-deep@^2.0.1:
     kind-of "^6.0.0"
     shallow-clone "^1.0.0"
 
-cnbuilder@^1.0.8:
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/cnbuilder/-/cnbuilder-1.0.8.tgz#2b5a700e4d541085df31709b5678c786d29967da"
-  integrity sha512-05l9Bhs0FhEFGJ6vFkqL9O9USCKT3zBfOoTAYXGDKA4nFBX1Qc780bvppG9av2U1sKpa27JT8brJtM6VQquRcQ==
+cnbuilder@^2.5.0:
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/cnbuilder/-/cnbuilder-2.6.0.tgz#309b4f34371be80ad5452f983b7bac1af4f09ac8"
+  integrity sha512-SA2gBDcU6B9T1uMhA3m13dVffdaA8RC9TIz7zQygYwbdwOf6l8IGem5UbDc661W2YcQ0aiwt6FqDhDpAE7YUqA==
 
 co@^4.6.0:
   version "4.6.0"
@@ -9263,10 +9263,10 @@ react-draggable@3.x, "react-draggable@^2.2.6 || ^3.0.3":
     classnames "^2.2.5"
     prop-types "^15.6.0"
 
-react-draggable@^3.2.1:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/react-draggable/-/react-draggable-3.3.0.tgz#2ed7ea3f92e7d742d747f9e6324860606cd4d997"
-  integrity sha512-U7/jD0tAW4T0S7DCPK0kkKLyL0z61sC/eqU+NUfDjnq+JtBKaYKDHpsK2wazctiA4alEzCXUnzkREoxppOySVw==
+react-draggable@^4.4.2:
+  version "4.4.3"
+  resolved "https://registry.yarnpkg.com/react-draggable/-/react-draggable-4.4.3.tgz#0727f2cae5813e36b0e4962bf11b2f9ef2b406f3"
+  integrity sha512-jV4TE59MBuWm7gb6Ns3Q1mxX8Azffb7oTtDtBgFkxRvhDp38YAARmRplrj0+XGkhOJB5XziArX+4HUUABtyZ0w==
   dependencies:
     classnames "^2.2.5"
     prop-types "^15.6.0"
@@ -9391,13 +9391,14 @@ react-router@^3.0.2:
     prop-types "^15.5.6"
     warning "^3.0.0"
 
-react-scrollbars-custom@^4.0.0-alpha.8:
-  version "4.0.0-alpha.8"
-  resolved "https://registry.yarnpkg.com/react-scrollbars-custom/-/react-scrollbars-custom-4.0.0-alpha.8.tgz#dc09b61831b59d93e24f0ec18dae84c9f3fc14e8"
-  integrity sha512-sj56pEY/0VV551B61yUzYy7YcR/h5ge51lqUGD9CbBmcJnyVDvZ90zaIIeERPsLxSR6Ddb1ueBAexKIe14zpNw==
+react-scrollbars-custom@^4.0.25:
+  version "4.0.25"
+  resolved "https://registry.yarnpkg.com/react-scrollbars-custom/-/react-scrollbars-custom-4.0.25.tgz#64c1390fc04fe2b90373d5d142bd129a3d46e394"
+  integrity sha512-kipJK49fwvHsDgumIGiTmrJkxw5QD9urN7f4o2VvSrsHNOWMrDppNf+IjgobT5w+ZjbaaHfLk5NmZ/n1zgKtcw==
   dependencies:
-    cnbuilder "^1.0.8"
-    react-draggable "^3.2.1"
+    cnbuilder "^2.5.0"
+    react-draggable "^4.4.2"
+    zoom-level "^2.5.0"
 
 react-test-renderer@^16.0.0-0:
   version "16.5.2"
@@ -12142,3 +12143,8 @@ z-schema@^4.1.0:
     validator "^10.11.0"
   optionalDependencies:
     commander "^2.7.1"
+
+zoom-level@^2.5.0:
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/zoom-level/-/zoom-level-2.5.0.tgz#286ec16f247b8bb7a900df6612567688eeef498a"
+  integrity sha512-7UlRWU4Q3uCMCeDVMOm7eBrIu145OqsIJ3p6zq58l8UsSYwKWxc6zEapC5YA9tIeh0oheb4cT9Kk2Wq353loFg==
